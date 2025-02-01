@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\adminsun\Desktop\data\模拟数据生成\Project1\main.cpp(30,39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\adminsun\Desktop\data\模拟数据生成\Project1\main.cpp(58,25): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+C:\Users\adminsun\Desktop\data\模拟数据生成\Project1\main.cpp(63,33): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\adminsun\Desktop\data\模拟数据生成\Project1\main.cpp(104,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Project1.vcxproj -> C:\Users\adminsun\Desktop\data\模拟数据生成\Project1\x64\Debug\Project1.exe

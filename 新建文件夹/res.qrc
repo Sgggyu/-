@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/bak">
+        <file>bak1</file>
+        <file>bak0</file>
+        <file>bk3</file>
+        <file>bk4.png</file>
+        <file>bk5.png</file>
+        <file>bk6</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>image/loading.gif</file>
+    </qresource>
+</RCC>

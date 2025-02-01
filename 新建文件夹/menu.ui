@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QWidget" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="bk">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#bk{
+	background-image: url(:/bak/bak1);
+	background-repeat:no_repeat;
+	background-position: center;
+	background-size:cover;
+}
+QLabel:disabled { color: black; background-color: white; }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>150</y>
+     <width>311</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="btn_1">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgba(255, 165, 0, 0); /* 暖色调背景 */
+    border: 1px solid rgba(255, 165, 0, 0); /* 边框淡化 */
+    color: white; /* 白色文字 */
+    border-radius: 10px; /* 圆角效果 */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 165, 0, 0.7); /* 鼠标悬停时背景加深 */
+    border: 1px solid rgba(255, 165, 0, 0.8); /* 鼠标悬停时显化并加深边框 */
+}
+
+QPushButton:disabled {
+    background-color: rgba(255, 140, 0, 1); /* 禁用时背景为暗橙色 */
+    border: 1px solid rgba(255, 140, 0, 1); /* 禁用时边框为暗橙色 */
+    color: rgba(255, 255, 255, 0.6); /* 禁用时文字为灰白色 */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>温度传感器</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgba(255, 165, 0, 0); /* 暖色调背景 */
+    border: 1px solid rgba(255, 165, 0, 0); /* 边框淡化 */
+    color: white; /* 白色文字 */
+    border-radius: 10px; /* 圆角效果 */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 165, 0, 0.7); /* 鼠标悬停时背景加深 */
+    border: 1px solid rgba(255, 165, 0, 0.8); /* 鼠标悬停时显化并加深边框 */
+}
+
+QPushButton:disabled {
+    background-color: rgba(255, 140, 0, 1); /* 禁用时背景为暗橙色 */
+    border: 1px solid rgba(255, 140, 0, 1); /* 禁用时边框为暗橙色 */
+    color: rgba(255, 255, 255, 0.6); /* 禁用时文字为灰白色 */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>湿度传感器</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgba(255, 165, 0, 0); /* 暖色调背景 */
+    border: 1px solid rgba(255, 165, 0, 0); /* 边框淡化 */
+    color: white; /* 白色文字 */
+    border-radius: 10px; /* 圆角效果 */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 165, 0, 0.7); /* 鼠标悬停时背景加深 */
+    border: 1px solid rgba(255, 165, 0, 0.8); /* 鼠标悬停时显化并加深边框 */
+}
+
+QPushButton:disabled {
+    background-color: rgba(255, 140, 0, 1); /* 禁用时背景为暗橙色 */
+    border: 1px solid rgba(255, 140, 0, 1); /* 禁用时边框为暗橙色 */
+    color: rgba(255, 255, 255, 0.6); /* 禁用时文字为灰白色 */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>压力传感器</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgba(255, 165, 0, 0); /* 暖色调背景 */
+    border: 1px solid rgba(255, 165, 0, 0); /* 边框淡化 */
+    color: white; /* 白色文字 */
+    border-radius: 10px; /* 圆角效果 */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 165, 0, 0.7); /* 鼠标悬停时背景加深 */
+    border: 1px solid rgba(255, 165, 0, 0.8); /* 鼠标悬停时显化并加深边框 */
+}
+
+QPushButton:disabled {
+    background-color: rgba(255, 140, 0, 1); /* 禁用时背景为暗橙色 */
+    border: 1px solid rgba(255, 140, 0, 1); /* 禁用时边框为暗橙色 */
+    color: rgba(255, 255, 255, 0.6); /* 禁用时文字为灰白色 */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="menulable">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>700</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel:disabled { color:white; background-color: white; }</string>
+   </property>
+   <property name="text">
+    <string>传感器菜单</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loadingLabel">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>180</y>
+     <width>240</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: white;
+    border-radius: 10px;  /* 圆角边框 */
+    border: 2px solid #000;  /* 黑色边框 */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loadingtext">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>530</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>需要一点时间处理呢，先看猫猫跳舞吧</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
